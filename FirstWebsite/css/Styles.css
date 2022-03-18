@@ -1,0 +1,71 @@
+p {
+    font-family: 'Antonio', sans-serif;
+}
+
+/*this is my dependent class*/
+h1.header_edit {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+}
+
+/*this is my independent class*/
+.highlight {
+    background-color: yellow;
+}
+
+body {
+    background-color: azure;
+}
+
+/*header 2 edit*/
+h2 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+/*table edits*/
+th, td {
+    text-align: center;
+    border-style: double;
+    
+}
+
+tr {
+    border-style: double
+}
+
+caption {
+    border-style: double;
+}
+
+nav {
+    text-decoration: underline;
+    color: mediumpurple;
+}
+
+/*navigation edits and Flexbox*/
+.nav-list {
+    list-style-type: none;
+    padding: inherit;
+    display: flex;
+    justify-content: space-between;
+    border: solid black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: inherit;
+}
+/*media for smartphone. I did my best.*/
+@media(min-width: 550px){
+    main {
+        width: 50%
+    }
+    footer{
+        clear: both;
+    }
+}

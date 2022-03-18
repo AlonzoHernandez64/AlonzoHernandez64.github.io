@@ -1,0 +1,59 @@
+/*Paragraph edits*/
+p {
+    font-family: 'Merriweather', sans-serif;
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 16px;
+}
+/*Body of HTML edit*/
+body {
+    background-color: beige;
+}
+
+/*header 2 edit and header 1 edit*/
+h2, h1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: navy;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* navigation edits*/
+.navbar {
+    width: 100%;
+    background-color: beige;
+    overflow: auto;
+    text-align: center;
+}
+
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    padding: 10px;
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 35px;
+    width: 30%; 
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+/*h3 heading edit*/
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: navy;
+    text-align: center;
+}
+
+a {
+    float: left;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+    color: darkblue;
+}
+
